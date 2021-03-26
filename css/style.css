@@ -1,0 +1,144 @@
+/* Default Common */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.fullscreen {
+    height: 100vh;
+    background-color: #FBCF23;
+}
+
+.maxwidth {
+    width: 100vw;
+    margin: auto;
+    padding: 0 8vw;
+}
+
+
+
+/* Header */
+
+.navbar {
+    background-color: #2D2D2D;
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.navbar .maxwidth{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-icon {
+    font-size: 3em;
+    font-weight: bolder;
+    color:white;
+}
+
+.navbar-icon span{
+    color: #FBCF23;
+}
+
+
+.navbar-menu a{
+    color: #FBCF23;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    display: inline-block;
+    margin: 0 0 0 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover{
+    color: white;
+}
+
+
+
+/* Home */
+.home {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.profile {
+    height: 90vh;
+    align-self: flex-end;
+}
+
+.home .left {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    background-color: #3E3E3D;
+}
+.home .right {
+    width: 20vw;
+    display: flex;
+    margin-left: -11vw;
+    justify-content: center;
+}
+
+.intro {
+    margin-left: 8vw;
+}
+
+.intro .line1 {
+    font-size: 400%;
+    color: white;
+    
+}
+.intro .line2 {
+    font-size: 400%;
+    font-style: bolder;
+    color: #FBCF23;
+}
+.intro .line3 {
+    font-size: 130%;
+    color: white;
+}
+
+
+/* Projects */
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects .left {
+    font-size: 450%;
+    font-style: bolder;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .left h2 {
+    width:1px;
+    word-wrap: break-word;
+    padding: 0;
+    margin: 0;
+    line-height: 80%;
+    
+}
+
+.projects .right{
+    width: 80vw;
+    background-color: #3E3E3D;
+}
